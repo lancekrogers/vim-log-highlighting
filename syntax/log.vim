@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:         Generic log file
-" Maintainer:       MTDL9 <https://github.com/MTDL9>
-" Latest Revision:  2020-08-23
+" Maintainer:       lancekrogers <https://github.com/lancekrogers>
+" Latest Revision:  2022-04-28
 
 if exists('b:current_syntax')
   finish
@@ -95,9 +95,9 @@ syn keyword logLevelEmergency EMERGENCY EMERG
 syn keyword logLevelAlert ALERT
 syn keyword logLevelCritical CRITICAL CRIT FATAL
 syn keyword logLevelError ERROR ERR FAILURE SEVERE
-syn keyword logLevelWarning WARNING WARN
+syn keyword logLevelWarning WARNING WARN Warning warning
 syn keyword logLevelNotice NOTICE
-syn keyword logLevelInfo INFO
+syn keyword logLevelInfo INFO Reference REFERENCE
 syn keyword logLevelDebug DEBUG FINE
 syn keyword logLevelTrace TRACE FINER FINEST
 
